@@ -1,0 +1,1466 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"userInput"
+			],
+			[
+				"gr",
+				"groupName"
+			],
+			[
+				"resour",
+				"resourceName"
+			],
+			[
+				"res",
+				"resourceAction"
+			],
+			[
+				"group",
+				"groupName"
+			],
+			[
+				"pageT",
+				"pageTemplateName"
+			],
+			[
+				"Click",
+				"clickWaitForPresent"
+			],
+			[
+				"JSO",
+				"JSONWebcontent"
+			],
+			[
+				"grou",
+				"groupName"
+			],
+			[
+				"parent",
+				"parentFolderName"
+			],
+			[
+				"localize",
+				"localizedMap"
+			],
+			[
+				"_convert",
+				"_convertLocalizedListToMap"
+			],
+			[
+				"parentPage",
+				"parentPagesHierarchy"
+			],
+			[
+				"frag",
+				"fragmentHTML"
+			],
+			[
+				"toggle",
+				"ToggleAutomaticallyAddNewPagesToNavigationMenu"
+			],
+			[
+				"navigation",
+				"navigationMenus"
+			],
+			[
+				"first",
+				"firstRunTimeJSON"
+			],
+			[
+				"firstRun",
+				"firstRunTimeNav"
+			],
+			[
+				"list",
+				"listLength"
+			],
+			[
+				"Gogo",
+				"GogoShell"
+			],
+			[
+				"collect",
+				"collectionName"
+			],
+			[
+				"web",
+				"webContentTitle"
+			],
+			[
+				"voc",
+				"vocabularyName"
+			],
+			[
+				"voca",
+				"vocabularyId"
+			],
+			[
+				"cate",
+				"categoryId"
+			],
+			[
+				"VIEW",
+				"VIEW_SITE_ADMINISTRATION"
+			],
+			[
+				"IsChe",
+				"isNotCheckedNotVisible"
+			],
+			[
+				"sti",
+				"siteURLKey"
+			],
+			[
+				"site",
+				"siteURLKey"
+			],
+			[
+				"WEB",
+				"WEB_CONTENT_ARTICLE"
+			],
+			[
+				"paren",
+				"parentGroupId"
+			],
+			[
+				"f",
+				"folderId"
+			],
+			[
+				"conte",
+				"contentXML"
+			],
+			[
+				"process",
+				"processBuilder"
+			],
+			[
+				"JSON",
+				"JSONUtil"
+			],
+			[
+				"portlet",
+				"portletDataContext"
+			],
+			[
+				"workf",
+				"workflowedModel"
+			],
+			[
+				"NULL",
+				"null"
+			],
+			[
+				"exported",
+				"exportedStagedModel"
+			],
+			[
+				"private",
+				"privatePageName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "exit = false\n\n# Prints welcome message to user\ndef _printWelcomeMessage():\n\tprint(\"Welcome to the Docker Database manager.\")\n\n# Prompts user if they want to start or stop a database until they input a valid param\ndef _getStartStopDatabase():\n\tinput = \"\"\n\tvalidParam = false\n\n\twhile (validParam != true):\n\t\tinput = raw_input(\"Would you like to start or stop a database? (START/STOP)\")\n\n\t\tif input == \"START\" || input == \"STOP\":\n\t\t\tvalidParam = true\n\treturn input\n\nwhile exit != true:\n\t_printWelcomeMessage();\n\n\tuserInput = _getStartStopDatabase()\n\n\tif userInput == \"START\":\n\t\t#start\n\telif userInput == \"STOP\":\n\t\t#stop\n\telse:\n\t\tprint(\"Error, user input invalid.\")\n",
+			"file": "DockerManager.py",
+			"file_size": 691,
+			"file_write_time": 132006192240004785,
+			"settings":
+			{
+				"buffer_size": 662,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"PAck",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 122.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/blogs/BlogsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/sitetemplates/usecase/SitetemplatesUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Blogs.macro",
+		"/L/apacheScripts/build.xml",
+		"/L/public/master-portal/test.properties",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/assetlists/AssetListsWithStaging.testcase",
+		"/L/apacheScripts/app.properties",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/pages/contentpages/ContentPages.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/pages/widgetpages/WidgetPages.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/assetlists/AssetLists.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/PageEditor.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/ContentPages.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/JSONUtil.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/JSONPermissionGroup.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/JSONPermission.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/WebContent.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Permissions.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/JSONPermissionWebcontent.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/webcontent/webcontent/WebContentWithPermissions.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/JSONWebcontent.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/pages/contentpages/ContentPagesWithStagingAndPageTemplates.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/sites/Sites.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/sites/SitesUI.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Site.macro",
+		"/L/public/liferay-binaries-cache-2017/.git/config",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/assetpublisher/AssetPublisher.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/webcontent/templates/WebContentTemplates.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/PageTemplatesAdmin.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/WebContentTemplates.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/webformsanddatalists/dynamicdatalists/usecase/DDMTemplate.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/paths/pathlib/uielements/Button.path",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/webformsanddatalists/dynamicdatalists/usecase/DynamicdatalistsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/PortletEntry.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Modal.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/pages/pagesadmin/PagesFinder.testcase",
+		"/L/public/master-portal/build-test.xml",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/pages/contentpages/ContentPagesWithStaging.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/search/searchportlet/Search.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/ItemSelector.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/staging/pgstaging/PGStaging.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/DynamicDataMapping.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/AssetPublisherPortlet.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/PagesFinder.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/paths/portlet/blogs/Blogs.path",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/assetpublisher/AssetPublisherShowFullContent.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/assetpublisher/AssetPublisherUseCase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/wem/assetpublisher/AssetPublisherPublication.testcase",
+		"/L/public/master-portal/build.Kyle-Miho.properties",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/AlloyEditor.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/AssetListsAdmin.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/CalendarEvent.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Marketplace.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Page.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/PageTemplatesAdminGlobalSite.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/PermissionsInline.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/SitePages.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/SiteTemplates.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Smoke.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/macros/Upgrade.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/customfields/cpcustomfields/CPCustomfields.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/portalconfiguration/cpportalsettings/CPPortalSettings.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/portalconfiguration/usecase/PortalconfigurationUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/rolesandpermissions/cproles/CPRolesCPSites.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/rolesandpermissions/cproles/CPRolesPGBlogs.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/rolesandpermissions/cproles/CPRolesPGDocumentsandmedia.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/rolesandpermissions/cproles/CPRolesPGPage.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/rolesandpermissions/cproles/CPRolesPGStaging.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/rolesandpermissions/usecase/RolesandpermissionsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/sites/mobiledevicefamilies/MobileDeviceFamilies.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/users/cpusergroups/UsergroupsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/users/cpusersandorganizations/CPUsersandorganizations.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/administration/users/usecase/UsersandorganizationsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/search/searchportlet/ClassicSearch.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/search/searchportlet/SolrSearch.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/search/solr/Solr.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/security/antisamy/AntiSamy.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/security/login/SessionTimeout.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/security/permissions/Permissions.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/security/security/usecase/SecurityUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/security/xss/XSS.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestBlobPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestCacheConfigurationPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestDependencyAbleFoxPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestEventPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestHookPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestHttpClientPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestJSRPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestLocalizedPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestLogPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestOpensocialPublisherSubscriberPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestRuntimePortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestTransactionPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructure/testinginfrastructure/pluginstesting/TestUserAttributesPortlet.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructureee/clustering/clusteringframework/Clustering.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructureee/rollingrestart/RollingRestartEE.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/coreinfrastructureee/search/elasticsearch/Elasticsearch6EE.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/development/tools/projecttemplates/SampleProjectTemplates.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/development/tools/testinginfrastructure/block/macro/TestUtils.macro",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarComment.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarConfiguration.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarCreateCalendar.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarCreateEvent.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarCreateResource.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarEmailTemplate.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarExportImport.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarLocalization.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarManageCalendar.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarManageEvent.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarManageResource.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarRSS.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarScheduler.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/calendar/pgcalendar/CalendarStaging.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/announcements/AnnouncementsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/announcements/PGAnnouncements.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/blogs/PGBlogs.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/blogs/RemoteStagingBlogs.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/blogs/StagingBlogs.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/bookmarks/PGBookmarks.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/invitemembers/InviteMembers.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/knowledgebase/KnowledgebaseUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/knowledgebase/PGKnowledgebasearticle.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/knowledgebase/PGKnowledgebasedisplay.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/mentions/MentionsBlogs.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/mentions/MentionsDM.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/mentions/MentionsWiki.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/messageboards/MessageboardsUsecase.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/messageboards/PGMessageboards.testcase",
+		"/L/public/master-portal/portal-web/test/functional/com/liferay/portalweb/tests/enduser/collaboration/microblogs/Microblogs.testcase"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"*.testcase, *.macro",
+			"*.java",
+			"*.java,*.jsp",
+			"*.testcase, *.macro",
+			"",
+			"L:\\public\\master-portal\\portal-web\\test\\functional\\com\\liferay\\portalweb\\paths\\portlet",
+			"*.testcase",
+			"*.tyestcase",
+			"",
+			"*.testcase",
+			"",
+			"*.java",
+			"*Test",
+			".*Test\\.java,",
+			".*Test.java",
+			"*.java",
+			"*Test.java",
+			"*.testcase,*.macro,*.path",
+			"*.testcase,*.macro",
+			"*.*\t\t",
+			"*.*\t",
+			"*.*",
+			"*.macro",
+			"*.*",
+			"build.gradle",
+			"*.*",
+			"*.macro, *.testcase",
+			"*.macro",
+			"*.testcase, *.macro",
+			"*.testcase",
+			"*.*",
+			"*.macro",
+			"*.*",
+			"*.jsp",
+			"*.es.js",
+			"*.jsp",
+			"*.*",
+			"*.es.js",
+			"*.*",
+			"*.macro,*.testcase",
+			"*ServiceTest.java",
+			"*Test.java",
+			"*.java",
+			"*Test.java",
+			"*.testcase,*.path",
+			"*.path",
+			"*.testcase,*.macro,*.path",
+			"*.*",
+			"*.java",
+			"L:\\public\\master-portal\\portal-web\\test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem",
+			"*.testcase,*.macro",
+			"*.testcase",
+			"L:\\public\\master-portal\\portal-web\\test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem",
+			"L:\\public\\master-portal\\portal-web\\test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem,*.macro",
+			"*.testcase,*.macro",
+			"*.testcase",
+			"*.testcase,*.macro",
+			"*.*",
+			"*.*,L:\\public\\master-portal\\portal-web\\test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wcm",
+			"*.*",
+			"*.macro,*.testcase",
+			"*.macro",
+			"*.path",
+			"*.testcase,*.macro",
+			"*.*",
+			"*.testcase",
+			"NavigationMenu.testcase",
+			"*.testcase",
+			"*.*",
+			"MySites.testcase",
+			"*.*",
+			"MySites.testcase",
+			"*.*",
+			"MySites.testcase",
+			"*.*",
+			"*.macro",
+			"*.*",
+			"WEbcontent.usecase",
+			"*.*",
+			"Webcontentusecase.testcase",
+			"*.*",
+			"Webcontentusecase.testcase",
+			"*.*",
+			"Webcontentusecase.testcase",
+			"*.*",
+			"Webcontentusecase.testcase",
+			"L:\\public\\master-portal\\modules\\apps\\site",
+			"*.properties",
+			"*.*",
+			"*.testcase",
+			"*.*",
+			"",
+			"LanguageUsecase.testcase",
+			"*.macro, *.testcase",
+			"*.*",
+			"NavigationMenu.testcase",
+			"*.path,*.macro,*.testcase",
+			"*.path",
+			"*.testcase,*.macro",
+			"*.testcase,*.macrio",
+			"*.properties",
+			"*.testcase, *.macro",
+			"*.*",
+			"*.testcase",
+			"*.macro",
+			"*.*",
+			"*.path",
+			"*.*",
+			"*.path",
+			"*.macro, *.testcase",
+			"CPWebcontent.testcase",
+			"L:\\apacheScripts\\Regular_Expressions",
+			"CPWebcontent.testcase",
+			"*.*",
+			"CPSitepages.testcase",
+			"",
+			"*.testcase, *.macro",
+			"*.*",
+			"test.txt",
+			"*.*",
+			"CPSites.testcase",
+			"*.*",
+			"CPSitePages.testcase",
+			"*.*",
+			"CategoriesUsecase.testcase",
+			"PGWebcontentdisplay.testcase",
+			"CPSites.testcase",
+			"*.*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Blogs.addEntryWithHTML",
+			"alloyeditor",
+			"alloyEditor",
+			"Blogs.addEntryWithHtml",
+			"alloy",
+			"rich",
+			"addFeaturedImageFromURL",
+			"Featured Image",
+			"Featured Iamge",
+			"return",
+			"Permissions.definePermissionViaJSONAPI",
+			"switch",
+			"JSONPermission.editPermission",
+			"editFieldRepeatable",
+			"decompress",
+			"subscribe",
+			"AssetPublisherPortlet.configureDisplaySettings",
+			"Set and Enable",
+			"enable",
+			"asset",
+			"comments",
+			"subscribe",
+			"addCP",
+			"PGStaging",
+			"Display Page",
+			"\"Display Page\"",
+			"serviceContext",
+			"Type",
+			"Results for",
+			"Asset Lists",
+			"(?<=category = )\\\"Build\\\"",
+			"(?=category = )\\\"Build\\\"",
+			"category = \\\"Build\\\"",
+			"Build",
+			"\\\"Display Pages\\\"",
+			"Display Pages",
+			"Standard Page",
+			"Content Page",
+			"Standard Page",
+			"deDataRecordCollectionId",
+			"addModelResourcePermissions",
+			"MAP",
+			"NAO",
+			"edit",
+			"fragment",
+			"multiplefragment",
+			"Test Site Name",
+			"Navigator.goto",
+			"Navigator#goto",
+			"gotosite",
+			"Type",
+			"if (",
+			"if",
+			"Type",
+			"for",
+			"JSONLayout.addPublicLayout",
+			"Lar.exportPortlet",
+			"priority.*?\\s*test .* {\\s*(.*\\s*)*? (.*\\s*)*?}",
+			"priority.*?\\s*test .* {\\s*(.*\\s*)*? (.*\\s*)*?}@",
+			"@priority.*?\\s*test .* {\\s*(.*\\s*)*? (.*\\s*)*?}",
+			"test .* {\\s*(.*\\s*)*? (.*\\s*)*?}",
+			"test .* {\\s*(.*\\s*)* (.*\\s*)*}",
+			"test .* {\\s*",
+			"exportsitecp",
+			"exportimport",
+			"addWebContent",
+			"addMultipleWebcontent",
+			"gotoviewincontext",
+			"view in context",
+			"ModelTest",
+			"sleep",
+			"Test.jav",
+			"DateComparator",
+			"Datecomparator",
+			"webcontent.viewstructurewithworkflowcp",
+			"viewVersion",
+			"AssetWorkflow#WORKFLOW_STATUS",
+			"Standard Page",
+			"\\\"Content Page\\\"",
+			"Content page",
+			"\\\"\\\"Teams\\\"\\\"",
+			"Site Teams",
+			"\\\"Site Memberships\\\"",
+			"\\\"Site Settings\\\"",
+			"(?<=category = )\\\"Members\\\"",
+			"\\\"Members\\\"",
+			"(?<=category = )\\\"Content\\\"",
+			"Application.20Display.Templates",
+			"Application%20Display%20Templates",
+			"\\\"Application%20Display%20Template\\\"",
+			"\\\"Application.Display.Template\\\"",
+			"Content Page Template",
+			"\\\"Content Page Template\\\"",
+			"\\\"Content Page\\\"",
+			"\\\"element\\\"",
+			"element",
+			"category =\\\"Content",
+			"=\\\"Content",
+			"\\\"Content and Data\\\"",
+			"\\\"Site Teams\\\"",
+			"\\\"Site Memberships\\\"",
+			"\\\"Site Settings\\\"",
+			"(?<=category = )\\\"Members\\\"",
+			"\\\"Application Display Templates\\\"",
+			"\\\"Application Display Template\\\"",
+			"\\\"Content Page Template\\\"",
+			"\\\"Content Page\\\"",
+			"Smoke",
+			"PortalSmoke",
+			"Content",
+			"category = \\\"Content & Data\\\"",
+			"category = \\\"Content\\\"",
+			" (?<=category = )\\\"Content\\\"",
+			"check",
+			"&amp",
+			"\\\".*?\\&.*?\\\"",
+			"\\\".*?&.*?\\\"",
+			"Site Teams",
+			"Site Memberships",
+			"\\\"Site Settings\\\"",
+			"(?<=category = )\\\"Members\\\"",
+			" (?<=category = )\\\"Content\\\"",
+			"Application Display Templates",
+			"Application Display TEmplates",
+			"display template",
+			"display",
+			"Application",
+			"Application Display"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"Site Builder\"",
+			"Display Page Templates",
+			"Content Page",
+			"\"Teams\"",
+			"\"Memberships\"",
+			"\"Settings\"",
+			"\"People\"",
+			"\"Content &amp; Data\"",
+			"\"Standard Page\"",
+			"category = \\\"Content",
+			"\\\"Content &amp; Data\\\"",
+			"\"Teams\"",
+			"\"Memberships\"",
+			"\"Settings\"",
+			"\"People\"",
+			"\"Widget Template\"",
+			"\"Standard Page Template\"",
+			"\"Standard Page\"",
+			"category = \\\"Content &amp; Data\\\"",
+			"category = \\\"Content & Data\\\"",
+			"\"Content and Data\"",
+			"Teams",
+			"Memberships",
+			" \"Settings\"",
+			" \"People\"",
+			" \"Peopl\"",
+			" \"Content & Data\"",
+			"\"Standard Page Template\"",
+			"\"Standard Page\"",
+			"addSubcategory",
+			"addVocabulary",
+			"addCategory",
+			"",
+			"<execute macro=\"Navigator#gotoSitePage\">\n\t\t\t<var name=\"pageName\" value=\"\\1\" />\n\t\t\t<var name=\"siteName\" value=\"Test Site Name\" />\n\t\t</execute>",
+			"\\\"Test Site Name\\\"",
+			"",
+			"<execute macro=\"SystemSettings#openSystemSettingsAdmin\" />",
+			"<execute macro=\"ServerAdministration#openServerAdmin\" />",
+			"<execute macro=\"Site#openSiteMembershipsAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"GogoShell#openGogoShellAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Staging#openStagingAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"DMDocument#openDocumentsAndMediaAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Category#openCategoriesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"User#openUsersAdmin\" />",
+			"<execute macro=\"JSONLayout#addPublicLayout\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"layoutName\" value=\"\\1\" />\n\t\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"global\" />\n\t\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"global\" />\n\t\t</execute>\n",
+			"<execute macro=\"Navigator#gotoSitePage\">\n\t\t\t\t<var name=\"pageName\" value=\"\\1\" />\n\t\t\t\t<var name=\"siteName\" value=\"Test Site Name\" />\n\t\t\t</execute>",
+			"<execute macro=\"JSONLayout#addPublicLayout\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"layoutName\" value=\"\\1\" />\n\t\t</execute>",
+			"<execute macro=\"DMDocument#openDocumentsAndMediaAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Site#openSiteMembershipsAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Site#openSitesAdmin\" />",
+			"<execute macro=\"Category#openCategoriesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"SitePages#openPagesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"SitePages#openPagesAdmin\">\n\t\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t\t</execute>",
+			"<execute macro=\"User#openUsersAdmin\" />",
+			"",
+			"\\s*",
+			"",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"global\" />\n\t\t</execute>",
+			"\"Test Site Name\"",
+			"addPublicLayout",
+			"JSONLayout#addPublicLayout",
+			"JSONCLayout#addPublicLayout",
+			"JSONCategory#_getVocabularyIdByName",
+			"JSONCategory#_getCategoryIdByName",
+			"JSONLayout#_getLayoutIdByName",
+			"JSONGroup#_getSiteIdByGroupName",
+			"JSONGroup#_getGroupName",
+			"JSONGroup#_getGroupIdByName",
+			"JSONGroup#_getGroupIdByGroupKey",
+			"addChildSite",
+			"<execute macro=\"JSONLayout#addPublicLayout\">\n\t\t\t<var name=\"groupName\" value=\"\\1\" />\n\t\t\t<var name=\"layoutName\" value=\"\\2\" />\n\t\t</execute>",
+			"<execute macro=\"JSONLayout#addPublicLayout\">\n\t\t<var name=\"groupName\" value=\"\\1\" />\n\t\t<var name=\"layoutName\" value=\"\\2\" />\n\t</execute>",
+			"SitePages#LIST_GROUP_ITEM_CARET_ICON",
+			"</tbody>",
+			"",
+			"\\</tbody>",
+			"\\2",
+			"",
+			"\\2",
+			"",
+			"<execute macro=\"JSONWebcontent#addWebContent\">\n\t<var name=\"content\" value=\"\\1\" />\n\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t<var name=\"title\" value=\"\\2\" />\n</execute>",
+			"<execute macro=\"Site#openSiteMembershipsAdmin\">\n\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t</execute>",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t</execute>",
+			"<execute macro=\"User#openUsersAdmin\" />",
+			"<execute macro=\"Role#openRolesAdmin\" />",
+			"<execute macro=\"Site#openSitesAdmin\" />",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t</execute>",
+			"",
+			"\"Test Site Name\"",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"",
+			"<execute macro=\"Site#openSitesAdmin\" />",
+			"\t\t<execute macro=\"JSONWebcontent#addWebContent\">\n\t\t\t<var name=\"content\" value=\"\\1\" />\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"title\" value=\"\\2\" />\n\t\t</execute>",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>\n",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"User#openUsersAdmin\" />",
+			"<execute macro=\"Category#openCategoriesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Navigator#gotoSitePage\">\n\t\t\t<var name=\"pageName\" value=\"\\1\" />\n\t\t\t<var name=\"siteName\" value=\"Test Site Name\" />\n\t\t</execute>\n",
+			"<execute macro=\"Navigator#gotoSitePage\">\n\t\t<var name=\"pageName\" value=\"\\1\" />\n\t\t<var name=\"siteName\" value=\"Test Site Name\" />\n\t</execute>",
+			"\t<execute macro=\"Navigator#gotoSitePage\">\n\t\t<var name=\"pageName\" value=\"\\1\" />\n\t\t<var name=\"siteName\" value=\"Test Site Name\" />\n\t</execute>",
+			"",
+			"\"Test Site Name\"",
+			"<execute macro=\"JSONWebcontent#addWebContent\">\n\t\t<var name=\"content\" value=\"\\1\" />\n\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t<var name=\"title\" value=\"\\2\" />\n\t</execute>",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t</execute>",
+			"<execute macro=\"Page#openPageAdmin\">\n\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t</execute>\n",
+			"<execute macro=\"Site#openSitesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"\\1",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t\t</execute>",
+			"",
+			"<execute macro=\"JSONCategory#addSubcategoryByGroupName\">\n\t\t\t<var name=\"categoryName\" value=\"Category Name\" />\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"subcategoryName\" value=\"Subcategory Name\" />\n\t\t\t<var name=\"vocabularyName\" value=\"Vocabulary Name\" />\n\t\t</execute>",
+			"<execute macro=\"JSONCategory#addCategoryByGroupName\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"title\" value=\"Category Name\" />\n\t\t\t<var name=\"vocabularyName\" value=\"Vocabulary Name\" />\n\t\t</execute>",
+			"\t\t<execute macro=\"JSONCategory#addCategoryByGroupName\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"title\" value=\"Category Name\" />\n\t\t\t<var name=\"vocabularyName\" value=\"Vocabulary Name\" />\n\t\t</execute>",
+			"<execute macro=\"JSONCategory#addCategoryByGroupName\">\n\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t<var name=\"title\" value=\"Category Name\" />\n\t\t\t<var name=\"vocabularyName\" value=\"Vocabulary Name\" />\n</execute>",
+			"\t\t<execute macro=\"JSONCategory#addCategoryByGroupName\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n<var name=\"title\" value=\"Category Name\" />\n\t\t\t<var name=\"vocabularyName\" value=\"Vocabulary Name\" />\n\t\t</execute>",
+			"\t\t<execute macro=\"JSONCategory#addCategoryByGroupName\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"title\" value=\"Category Name\" />\n\t\t\t<var name=\"vocabularyName\" value=\"Vocabulary Name\" />\n\t\t</execute>",
+			"<execute macro=\"JSONCategory#addVocabularyByGroupName\">\n\t\t\t<var name=\"groupName\" value=\"Test Site Name\" />\n\t\t\t<var name=\"title\" value=\"Vocabulary Name\" />\n\t\t</execute>",
+			"<execute macro=\"Role#openRolesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"Site#openSitesAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"WebContent#openWebContentAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>",
+			"<execute macro=\"User#openUsersAdmin\">\n\t\t\t<var name=\"siteURLKey\" value=\"test-site-name\" />\n\t\t</execute>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "L:\\DockerManager"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "DockerManager.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "L:\\DockerManager\\Databases",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.533558178752,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 114.0
+	},
+	"output.package_dev":
+	{
+		"height": 92.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"SiteTemplatesUseca",
+				"tests\\enduser\\sitetemplates\\usecase\\SitetemplatesUsecase.testcase"
+			],
+			[
+				"AlloyEditor.macro",
+				"macros\\AlloyEditor.macro"
+			],
+			[
+				"SiteTemplatesUsecase",
+				"tests\\enduser\\sitetemplates\\usecase\\SitetemplatesUsecase.testcase"
+			],
+			[
+				"webcontent.macro",
+				"macros\\WebContent.macro"
+			],
+			[
+				"Blogs.macro",
+				"macros\\Blogs.macro"
+			],
+			[
+				"PageEditor.macro",
+				"macros\\PageEditor.macro"
+			],
+			[
+				"COntentPages.macro",
+				"macros\\ContentPages.macro"
+			],
+			[
+				"ContentPagesTest",
+				"tests\\enduser\\wem\\pages\\contentpages\\ContentPages.testcase"
+			],
+			[
+				"SitePages.testcase",
+				"tests\\enduser\\wem\\pages\\widgetpages\\WidgetPages.testcase"
+			],
+			[
+				"AssetListWith",
+				"tests\\enduser\\wem\\assetlists\\AssetListsWithStaging.testcase"
+			],
+			[
+				"AssetList",
+				"tests\\enduser\\wem\\assetlists\\AssetLists.testcase"
+			],
+			[
+				"WebcontentWith",
+				"tests\\enduser\\wem\\webcontent\\webcontent\\WebContentWithPermissions.testcase"
+			],
+			[
+				"Permiss",
+				"macros\\Permissions.macro"
+			],
+			[
+				"JSONWe",
+				"macros\\JSONWebcontent.macro"
+			],
+			[
+				"JSOnWeb",
+				"macros\\JSONWebcontentPermission.macro"
+			],
+			[
+				"PageTemplatesAdmin",
+				"macros\\PageTemplatesAdmin.macro"
+			],
+			[
+				"JSONPerm",
+				"macros\\JSONPermission.macro"
+			],
+			[
+				"Permissions",
+				"macros\\Permissions.macro"
+			],
+			[
+				"WebContentPer",
+				"tests\\enduser\\wem\\webcontent\\webcontent\\WebContentWithPermissions.testcase"
+			],
+			[
+				"dynamicDatama",
+				"macros\\DynamicDataMapping.macro"
+			],
+			[
+				"Template.testcase",
+				"tests\\enduser\\wem\\webcontent\\templates\\WebContentTemplates.testcase"
+			],
+			[
+				"Templates.macro",
+				"macros\\WebContentTemplates.macro"
+			],
+			[
+				"Templates",
+				"macros\\PageTemplatesAdmin.macro"
+			],
+			[
+				"WebContentTemplates",
+				"tests\\enduser\\wem\\webcontent\\templates\\WebContentTemplates.testcase"
+			],
+			[
+				"AssetPublisher.test",
+				"tests\\enduser\\wem\\assetpublisher\\AssetPublisher.testcase"
+			],
+			[
+				"Blogs.path",
+				"paths\\portlet\\blogs\\Blogs.path"
+			],
+			[
+				"Button.path",
+				"paths\\pathlib\\uielements\\Button.path"
+			],
+			[
+				"AssetPublisher",
+				"tests\\enduser\\wem\\assetpublisher\\AssetPublisherUseCase.testcase"
+			],
+			[
+				"AssetPubli",
+				"tests\\enduser\\wem\\assetpublisher\\AssetPublisherPublication.testcase"
+			],
+			[
+				"Portletent",
+				"macros\\PortletEntry.macro"
+			],
+			[
+				"Modal.macro",
+				"macros\\Modal.macro"
+			],
+			[
+				"Site.macro",
+				"macros\\Site.macro"
+			],
+			[
+				"SitesUI",
+				"tests\\enduser\\wem\\sites\\SitesUI.testcase"
+			],
+			[
+				"Sites.test",
+				"tests\\enduser\\wem\\sites\\Sites.testcase"
+			],
+			[
+				"ContentPagesWithStaging.testcase",
+				"tests\\enduser\\wem\\pages\\contentpages\\ContentPagesWithStaging.testcase"
+			],
+			[
+				"Webco",
+				"macros\\WebContent.macro"
+			],
+			[
+				"PGStaging.test",
+				"tests\\enduser\\staging\\pgstaging\\PGStaging.testcase"
+			],
+			[
+				"PagesFinder.macro",
+				"macros\\PagesFinder.macro"
+			],
+			[
+				"PagesFinder.test",
+				"tests\\enduser\\wem\\pages\\pagesadmin\\PagesFinder.testcase"
+			],
+			[
+				"AsssetListsAd",
+				"macros\\AssetListsAdmin.macro"
+			],
+			[
+				"COntentPages",
+				"macros\\ContentPages.macro"
+			],
+			[
+				"Upgrade",
+				"macros\\Upgrade.macro"
+			],
+			[
+				"PortalSmokeUpgrade",
+				"tests\\coreinfrastructure\\upgrades\\PortalSmokeUpgrade.testcase"
+			],
+			[
+				"Navigator",
+				"macros\\Navigator.macro"
+			],
+			[
+				"JSONLayout",
+				"macros\\JSONLayout.macro"
+			],
+			[
+				"ContentPagesWithStagingAndPage",
+				"tests\\enduser\\wem\\pages\\contentpages\\ContentPagesWithStagingAndPageTemplates.testcase"
+			],
+			[
+				"navigator",
+				"macros\\Navigator.macro"
+			],
+			[
+				"webcontent",
+				"macros\\WebContentSearchPortlet.macro"
+			],
+			[
+				"Webcontent",
+				"macros\\WebContentNavigator.macro"
+			],
+			[
+				"Webcontentad",
+				"macros\\WebContentAdmin.macro"
+			],
+			[
+				"Webcontent.macro",
+				"macros\\WebContent.macro"
+			],
+			[
+				"Lar.",
+				"macros\\LAR.macro"
+			],
+			[
+				"JSONWeb",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\JSONWebcontent.macro"
+			],
+			[
+				"WebcontentUi",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\webcontent\\webcontent\\WebContentUI.testcase"
+			],
+			[
+				"Webcontenttestcase",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\webcontent\\webcontent\\WebContent.testcase"
+			],
+			[
+				"ContentpagesWithStagingandPage",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\pages\\contentpages\\ContentPagesWithStagingAndPageTemplates.testcase"
+			],
+			[
+				"ContentpagesWithStag",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\pages\\contentpages\\ContentPagesWithStaging.testcase"
+			],
+			[
+				"AssetListEntryServiceUtil",
+				"asset\\asset-list-api\\src\\main\\java\\com\\liferay\\asset\\list\\service\\AssetListEntryServiceUtil.java"
+			],
+			[
+				"SitesExport",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\sites\\SitesExportImportWithStaging.testcase"
+			],
+			[
+				"WebcontentNav",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\WebContentNavigator.macro"
+			],
+			[
+				"Webconten.path",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\portlet\\webcontent\\WCEditWebContent.path"
+			],
+			[
+				"WC.p",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\portlet\\webcontent\\WC.path"
+			],
+			[
+				"AssetWork",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\plugin\\workflow\\AssetWorkflow.path"
+			],
+			[
+				"SiteNavigation",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\portlet\\navigation\\SiteNavigationMenu.path"
+			],
+			[
+				"AP.p",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\portlet\\assetpublisher\\AP.path"
+			],
+			[
+				"SiteNavigationMenuWidget",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\navigationmenus\\NavigationMenuWidget.testcase"
+			],
+			[
+				"Uncheck",
+				"test\\functional\\com\\liferay\\portalweb\\functions\\Uncheck.function"
+			],
+			[
+				"Check.",
+				"test\\functional\\com\\liferay\\portalweb\\functions\\Check.function"
+			],
+			[
+				"NavigationMenus",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\NavigationMenusAdmin.macro"
+			],
+			[
+				"SiteNavigationMen",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\portlet\\navigation\\SiteNavigationMenu.path"
+			],
+			[
+				"Checkbox",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\pathlib\\uielements\\Checkbox.path"
+			],
+			[
+				"StagingTestcase",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\staging\\usecase\\StagingUsecase.testcase"
+			],
+			[
+				"PortalSmoke.mac",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\Smoke.macro"
+			],
+			[
+				"PortamSo",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\portalsmoke\\PortalSmoke.testcase"
+			],
+			[
+				"ContentPage",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\ContentPages.macro"
+			],
+			[
+				"SitePages",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\SitePages.macro"
+			],
+			[
+				"Lexic",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\LexiconCard.macro"
+			],
+			[
+				"Frag",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\FragmentsAdmin.macro"
+			],
+			[
+				"Iframe",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\IFrame.macro"
+			],
+			[
+				"TextIn",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\pathlib\\uielements\\TextInput.path"
+			],
+			[
+				"SikuliUpload",
+				"test\\functional\\com\\liferay\\portalweb\\functions\\SikuliUploadCommonFile.function"
+			],
+			[
+				"TextInput",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\pathlib\\uielements\\TextInput.path"
+			],
+			[
+				"IFrame.macro",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\IFrame.macro"
+			],
+			[
+				"Button.macro",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\Button.macro"
+			],
+			[
+				"ContentPages",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\pages\\contentpages\\ContentPages.testcase"
+			],
+			[
+				"FragmentsA",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\FragmentsAdmin.macro"
+			],
+			[
+				"Fragments.testcase",
+				"test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\wem\\fragments\\Fragments.testcase"
+			],
+			[
+				"JSONCate",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\JSONCategory.macro"
+			],
+			[
+				"WC.path",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\portlet\\webcontent\\WC.path"
+			],
+			[
+				"MenuItem.path",
+				"test\\functional\\com\\liferay\\portalweb\\paths\\pathlib\\uielements\\MenuItem.path"
+			],
+			[
+				"WebConten",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\WebContentNavigator.macro"
+			],
+			[
+				"Confirm",
+				"test\\functional\\com\\liferay\\portalweb\\functions\\Confirm.function"
+			],
+			[
+				"Click.f",
+				"test\\functional\\com\\liferay\\portalweb\\functions\\Click.function"
+			],
+			[
+				"Click.fu",
+				"test\\functional\\com\\liferay\\portalweb\\functions\\Click.function"
+			],
+			[
+				"MenuItem.",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\MenuItem.macro"
+			],
+			[
+				"WebContentNavigat",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\WebContentNavigator.macro"
+			],
+			[
+				"Webcontent.macr",
+				"test\\functional\\com\\liferay\\portalweb\\macros\\WebContent.macro"
+			],
+			[
+				"FragmentCollectiOnIm",
+				"fragment-service\\src\\main\\java\\com\\liferay\\fragment\\model\\impl\\FragmentCollectionImpl.java"
+			],
+			[
+				"FragmentCollectionLocaServiceIm",
+				"fragment-service\\src\\main\\java\\com\\liferay\\fragment\\service\\impl\\FragmentCollectionLocalServiceImpl.java"
+			],
+			[
+				"FragmentCollectionmodelI",
+				"fragment-service\\src\\main\\java\\com\\liferay\\fragment\\model\\impl\\FragmentCollectionModelImpl.java"
+			],
+			[
+				"FragmentCollecti",
+				"fragment-api\\src\\main\\java\\com\\liferay\\fragment\\model\\FragmentCollectionModel.java"
+			],
+			[
+				"Staging.test",
+				"portal-web\\test\\functional\\com\\liferay\\portalweb\\tests\\enduser\\staging\\usecase\\Staging.testcase"
+			],
+			[
+				"SiteMembers",
+				"tests\\enduser\\wem\\sites\\SiteMemberships.testcase"
+			],
+			[
+				"FragmentsAd",
+				"macros\\FragmentsAdmin.macro"
+			],
+			[
+				"DisplayPages.test",
+				"tests\\enduser\\wem\\displaypages\\DisplayPages.testcase"
+			],
+			[
+				"DIsplayPages.test",
+				"tests\\enduser\\wem\\displaypages\\DisplayPages.testcase"
+			],
+			[
+				"PageEditor.m",
+				"macros\\PageEditor.macro"
+			],
+			[
+				"PageEditor",
+				"paths\\portlet\\pageeditor\\PageEditor.path"
+			],
+			[
+				"PageEditor.path",
+				"paths\\portlet\\pageeditor\\PageEditor.path"
+			],
+			[
+				"FragmentEntryServiceTest",
+				"fragment\\fragment-test\\src\\testIntegration\\java\\com\\liferay\\fragment\\service\\test\\FragmentEntryServiceTest.java"
+			],
+			[
+				"as",
+				"adaptive-media\\adaptive-media-web\\node_modules\\async\\allSeries.js"
+			],
+			[
+				"User",
+				"macros\\User.macro"
+			],
+			[
+				"FragmentsWith",
+				"tests\\enduser\\wem\\fragments\\FragmentsWithStaging.testcase"
+			],
+			[
+				"AssetLists",
+				"macros\\AssetListsAdmin.macro"
+			],
+			[
+				"Layout",
+				"macros\\JSONLayout.macro"
+			],
+			[
+				"Navbar",
+				"paths\\pathlib\\uisections\\NavBar.path"
+			],
+			[
+				"NavItem.",
+				"macros\\NavItem.macro"
+			],
+			[
+				"APCOn",
+				"paths\\portlet\\assetpublisher\\APConfiguration.path"
+			],
+			[
+				"IF",
+				"paths\\pathlib\\uielements\\IFrame.path"
+			],
+			[
+				"Butto",
+				"macros\\Button.macro"
+			],
+			[
+				"AssetPub",
+				"macros\\AssetPublisherPortlet.macro"
+			],
+			[
+				"APCon",
+				"paths\\portlet\\assetpublisher\\APConfiguration.path"
+			],
+			[
+				"Icon.",
+				"paths\\pathlib\\uielements\\Icon.path"
+			],
+			[
+				"Lex",
+				"macros\\LexiconEntry.macro"
+			],
+			[
+				"Buto",
+				"macros\\Button.macro"
+			],
+			[
+				"Fragment.p",
+				"paths\\portlet\\fragments\\Fragment.path"
+			],
+			[
+				"Card.path",
+				"paths\\pathlib\\uisections\\Card.path"
+			],
+			[
+				"AssetPubl",
+				"macros\\AssetPublisherPortlet.macro"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 587.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 350.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
